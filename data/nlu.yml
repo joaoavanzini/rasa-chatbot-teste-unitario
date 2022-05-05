@@ -1,0 +1,47 @@
+version: "2.0"
+
+nlu:
+- intent: saudar
+  examples: |
+    - oi
+    - ola
+    - e ai
+    - opa
+    - bom dia
+    - boa tarde
+    - qualé
+
+- intent: tchau
+  examples: |
+    - boa noite
+    - tchau
+    - até
+    - vejo você mais tarde
+    - valeu
+    - valeu falou
+    - falou
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - s
+    - claro
+    - com certeza
+    - correto
+
+- intent: negacao
+  examples: |
+    - nao
+    - não
+    - n
+    - nunca
+    - não acredito
+    - nem
+    - na realidade não
+
+- intent: filmes
+  examples: |
+    - rey derrubando a nave do kylo
+    - cara perdido lá em marte
+    - recebeu uma missão para procurar planetas
+    - um doutor que passou por cirurgia na mão e controla o tempo    

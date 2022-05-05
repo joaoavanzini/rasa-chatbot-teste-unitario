@@ -1,0 +1,21 @@
+version: "2.0"
+
+stories:
+
+- story: caminho feliz
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - action: utter_perguntar_filme
+  - intent: afirmacao
+  - action: utter_procurar
+  - intent: filmes
+  - action: action_procurar_filme
+
+- story: caminho feliz sem filme
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - action: utter_perguntar_filme
+  - intent: negacao
+  - action: utter_tchau

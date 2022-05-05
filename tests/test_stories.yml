@@ -1,0 +1,21 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: caminho feliz
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - action: utter_perguntar_filme
+  - intent: afirmacao
+  - action: utter_procurar
+  - intent: filmes
+  - action: action_procurar_filme
+
+- story: caminho feliz sem filme
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - action: utter_perguntar_filme
+  - intent: negacao
+  - action: utter_tchau

@@ -1,0 +1,17 @@
+version: "2.0"
+
+responses:
+  utter_saudar:
+  - text: "Olá! Sou o bot de busca de filmes!"
+
+  utter_perguntar_filme:
+  - text: "Você gostaria que eu procurasse algum filme?"
+
+  utter_procurar:
+  - text: "Beleza! Digite alguma característica do filme que você quer procurar: "
+
+  utter_tchau:
+  - text : "Até mais!"
+
+  utter_resposta_filme:
+  - text: "Achei esse possível filme: {nome_filme}"

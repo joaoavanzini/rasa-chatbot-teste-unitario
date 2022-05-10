@@ -5,7 +5,7 @@ responses:
   - text: "Olá! Sou o bot de busca de filmes!"
 
   utter_perguntar_filme:
-  - text: "Você gostaria que eu procurasse algum filme?"
+  - text: "Gostaria de procurar algum filme?"
 
   utter_procurar:
   - text: "Beleza! Digite alguma característica do filme que você quer procurar: "
